@@ -1,0 +1,3 @@
+﻿  1019.cpp
+E:\PTA\PAT (Basic Level) Practice\1019\1019\1019.cpp(13,24): warning C4244:  “+=”: 从“double”转换到“int”，可能丢失数据
+  1019.vcxproj -> E:\PTA\PAT (Basic Level) Practice\1019\Debug\1019.exe

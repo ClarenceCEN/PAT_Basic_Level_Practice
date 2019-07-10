@@ -1,0 +1,4 @@
+﻿  1027.cpp
+E:\PTA\PAT (Basic Level) Practice\1027\1027\1027.cpp(13,13): warning C4244:  “初始化”: 从“double”转换到“int”，可能丢失数据
+E:\PTA\PAT (Basic Level) Practice\1027\1027\1027.cpp(14,12): warning C4244:  “初始化”: 从“double”转换到“int”，可能丢失数据
+  1027.vcxproj -> E:\PTA\PAT (Basic Level) Practice\1027\Debug\1027.exe
