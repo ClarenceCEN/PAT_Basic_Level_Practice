@@ -1,0 +1,4 @@
+﻿  1033.cpp
+E:\PTA\PAT (Basic Level) Practice\1033\1033\1033.cpp(15,21): warning C4018:  “<”: 有符号/无符号不匹配
+E:\PTA\PAT (Basic Level) Practice\1033\1033\1033.cpp(32,21): warning C4018:  “<”: 有符号/无符号不匹配
+  1033.vcxproj -> E:\PTA\PAT (Basic Level) Practice\1033\Debug\1033.exe
