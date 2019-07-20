@@ -1,0 +1,4 @@
+﻿  1054.cpp
+E:\PTA\PAT_Basic_Level_Practice\1054\1054\1054.cpp(21,17): warning C4018:  “<”: 有符号/无符号不匹配
+E:\PTA\PAT_Basic_Level_Practice\1054\1054\1054.cpp(53,21): warning C4018:  “<”: 有符号/无符号不匹配
+  1054.vcxproj -> E:\PTA\PAT_Basic_Level_Practice\1054\Debug\1054.exe

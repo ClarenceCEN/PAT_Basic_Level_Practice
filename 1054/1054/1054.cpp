@@ -2,21 +2,56 @@
 //
 
 #include <iostream>
-#include<string>
+#include <algorithm>
+#include <string>
+#include <vector>
 using namespace std;
 
-bool check_num(string s) {
-
-}
 
 
 int main()
 {
 	int n; cin >> n;
-	for (int i = 0; i < n; i++) {
+	int j;
+	vector<double>v;
+	while (n--) {
 		string s; cin >> s;
-
-		
+		int countf = 0, countd = 0;
+		for (j = 0; j < s.length(); j++) {
+			if (isdigit(s[j]) || s[j] == '.' || s[j] == '-') {
+				if (s[j] == '.')countd++;
+				if (s[j] == '-')countf++;
+				if (countd >= 2 || countf >= 2) {
+					cout << "ERROR: " << s << " is not a legal number" << endl;
+					break;
+				}
+				continue;
+			}
+			else {
+				cout << "ERROR: " << s << " is not a legal number" << endl;
+				break;
+			}
+		}
+		if (j == s.length()) {
+			if (stof(s) > 1000 || stof(s) < -1000) {
+				cout << "ERROR: " << s << " is not a legal number" << endl;
+				continue;
+			}
+			if (s.find('.') != string::npos && s.length() - s.find('.') > 3) {
+					cout << "ERROR: " << s << " is not a legal number" << endl;
+					continue;
+			}
+			v.push_back(stof(s));
+		}
+	}
+	double sum=0;
+	if (v.size() == 0) cout << "The average of 0 numbers is Undefined" << endl;
+	else if (v.size() == 1) printf("The average of 1 number is %.2f", v[0]);
+	else {
+		for (int i = 0; i < v.size(); i++) {
+			sum += v[i];
+		}
+		printf("The average of %d numbers is %.2f", v.size(),sum/v.size());
 	}
 	return 0;
 }
