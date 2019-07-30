@@ -2,23 +2,48 @@
 //
 
 #include <iostream>
+#include <vector>
 using namespace std;
 
 int main()
 {
-	string correct_s,wrong_s;
-	cin >> correct_s>>wrong_s;
-	int correct_size = correct_s.size();
-	int wrong_size = wrong_s.size();
-	int wrong_counter = 0;
-	for (int i = 0; i < correct_size; i++) {
-/*		for(int j=0;j<wrong_size;j++){
-			if (correct_s[i] != wrong_s[j]) {
-				
+	vector<int>jianpan(37, 0); //0-25:A-Z 26-35:0-9 36:_
+	string input; cin >> input;
+	string output; cin >> output;
+	vector<string> broken;
+	for (int i = 0; i < input.size(); i++) {
+		char temp = input[i];
+		if (output.find(temp) == string::npos) {
+			if (temp<='z' && temp>='a') {
+				temp = temp + 'A' - 'a';
 			}
-		}*/
-		while()
+			if (isdigit(temp)) {
+				int ind = temp - '0' + 26;
+				if (jianpan[ind] == 0) {
+					cout << temp;
+					jianpan[ind] = 1;
+				}
+
+			}
+			else if (isalpha(temp)) {
+				int ind = temp - 'A';
+				if (jianpan[ind] == 0) {
+					cout << temp;
+					jianpan[ind] = 1;
+				}
+
+			}
+			else {
+				if (jianpan[36] == 0) {
+					cout << temp;
+					jianpan[36] = 1;
+				}
+
+			}
+
+		}
 	}
+
 
 }
 

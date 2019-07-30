@@ -1,0 +1,6 @@
+﻿  1088.cpp
+E:\PTA\PAT_Basic_Level_Practice\1088\1088\1088.cpp(41,12): warning C4018:  “<”: 有符号/无符号不匹配
+E:\PTA\PAT_Basic_Level_Practice\1088\1088\1088.cpp(47,15): warning C4244:  “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\PTA\PAT_Basic_Level_Practice\1088\1088\1088.cpp(49,13): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+E:\PTA\PAT_Basic_Level_Practice\1088\1088\1088.cpp(50,13): warning C4244:  “参数”: 从“int”转换到“float”，可能丢失数据
+  1088.vcxproj -> E:\PTA\PAT_Basic_Level_Practice\1088\Debug\1088.exe
