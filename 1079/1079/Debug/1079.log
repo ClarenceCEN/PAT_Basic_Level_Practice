@@ -1,0 +1,4 @@
+﻿  1079.cpp
+E:\PTA\PAT_Basic_Level_Practice\1079\1079\1079.cpp(14,20): warning C4018:  “<”: 有符号/无符号不匹配
+E:\PTA\PAT_Basic_Level_Practice\1079\1079\1079.cpp(20,20): warning C4018:  “<”: 有符号/无符号不匹配
+  1079.vcxproj -> E:\PTA\PAT_Basic_Level_Practice\1079\Debug\1079.exe
