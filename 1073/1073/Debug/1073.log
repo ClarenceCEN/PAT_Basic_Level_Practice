@@ -1,0 +1,11 @@
+﻿  1073.cpp
+E:\PTA\PAT_Basic_Level_Practice\1073\1073\1073.cpp(50,23): warning C4018:  “<”: 有符号/无符号不匹配
+E:\PTA\PAT_Basic_Level_Practice\1073\1073\1073.cpp(61,23): warning C4018:  “<”: 有符号/无符号不匹配
+E:\PTA\PAT_Basic_Level_Practice\1073\1073\1073.cpp(37,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+E:\PTA\PAT_Basic_Level_Practice\1073\1073\1073.cpp(38,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+E:\PTA\PAT_Basic_Level_Practice\1073\1073\1073.cpp(40,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
+E:\PTA\PAT_Basic_Level_Practice\1073\1073\1073.cpp(42,1): error C4996:  'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Windows Kits\10\Include\10.0.17763.0\ucrt\stdio.h(1274): message :  参见“scanf”的声明
